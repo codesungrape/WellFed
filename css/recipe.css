@@ -1,0 +1,99 @@
+body {
+    background-image: url(./images-recipe-website/seeds-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+body h2, h3{
+    background-color: darksalmon;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header-banner h1{
+    font-family: 'Rubik Moonrocks', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    background-color: #FF595A;
+    color: #CAC0B3; 
+    padding: 2rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#chilli-con-carne img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul{
+    background-color: #CAC0B3;
+    list-style-type: none;
+    overflow: hidden;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+  }
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+nav ul li a{
+    text-decoration-line: none;
+}
+
+
+.favorites-button {
+    display: inline-block;  /* Inline-block for centering */
+    background-color: greenyellow;   /* Button color */
+    padding: 10px 10px;       /* Padding for the button */
+    border: none;               /* Remove border */
+    border-radius: 5px;         /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    margin: auto;               /* Center horizontally */
+}
+
+.shopping-list-button{
+    background-color: greenyellow;
+    border: none; 
+}
+
+#container-ingredients{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);     /* white and opacity of 0.9 */
+}
+
+
+.ingredient-item {
+    display: flex;                   /* Enable Flexbox */
+    justify-content: space-between;  /* Space between items */
+    align-items: center;        /* Align items vertically */
+    padding: 10px;        /* Padding inside the container */
+    background-color: #fff;          /* White background */
+    border-radius: 5px;              /* Rounded corners */
+}
+
+.ingredient-item span {
+    flex-grow: 1;                    /* Make text occupy available space */
+    margin-right: 10px;              /* Add space between text and button */
+}
