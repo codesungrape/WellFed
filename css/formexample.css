@@ -1,0 +1,85 @@
+*{
+   margin: 0;
+   padding:0;
+   font-family: sans-serif;
+}
+
+/* header section */
+
+header {
+    background-color: #d7b9d5;
+    padding: 20px 10px;
+}
+
+h1 {
+    background-color: #f4cae0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+
+/* call to action section */
+
+#call-to-action h4 {
+    background-color: #ffcaaf;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* main form section */
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d7b9d5;
+}
+
+
+
+#username-section, #firstname-div, #lastname-div,
+#email-section, #verification-section  {
+    padding: 15px 20px;
+    height: auto;
+}
+
+
+#optional-textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#optional-textbox label {
+    margin-bottom: 20px;
+}
+
+
+/* submit button */
+#submit-button {
+    text-align: center;
+    padding: 20px 20px;
+
+}
+
+#submit-button input{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#submit-button input:hover{
+    background-color: aqua;
+    
+}
+
+
+
+/* footer section */
+
+#footer {
+    background-color: #d7b9d5;
+    height: 10vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
